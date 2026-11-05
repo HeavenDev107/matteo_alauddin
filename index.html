@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080b12" />
+  <meta name="description" content="Matteo Alauddin — Senior Backend Engineer specializing in Python, asynchronous systems, LLM orchestration and reliable AI platforms. Explore selected work, experience and technical expertise." />
+  <meta name="author" content="Matteo Alauddin" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Matteo Alauddin — Senior Backend & AI Platform Engineer" />
+  <meta property="og:description" content="Engineering reliable backends and production AI systems. Python, FastAPI, LLM orchestration, async processing and cloud infrastructure." />
+  <meta property="og:image" content="assets/og-cover.png" />
+  <title>Matteo Alauddin — Senior Backend & AI Platform Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" aria-label="Matteo Alauddin, back to home">
+        <span class="brand-icon" aria-hidden="true">M<span class="brand-slash">/</span>A</span>
+        <span class="brand-info"><strong>Matteo Alauddin</strong><small>BACKEND / AI ENGINEERING</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#expertise" class="nav-link">Expertise</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+      <a class="header-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a>
+      <a href="#work">Selected Work</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="hero-eyebrow reveal"><span class="eyebrow-line"></span><span class="mono-label">01 / ENGINEERING PORTFOLIO</span></div>
+          <div class="availability reveal"><span class="status-pulse" aria-hidden="true"></span> Open to remote opportunities worldwide</div>
+          <h1 id="hero-title" class="hero-title reveal">Building the<br /><span class="outline-word">backbone</span> of<br /><span class="gradient-text">intelligent</span> products<span class="period">.</span></h1>
+          <p class="hero-lead reveal">I'm <strong>Matteo Alauddin</strong> — a Senior Backend Engineer crafting high-performance Python services, production-ready AI workflows, and systems that stay dependable at scale.</p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-footnote mono-label reveal"><span class="coordinate-star" aria-hidden="true">✳</span> BASED IN TERRACINA, ITALY <span class="footnote-divider">/</span> WORKING GLOBALLY</div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Illustration of a production AI processing pipeline">
+          <div class="visual-halo" aria-hidden="true"></div>
+          <div class="visual-topline"><span><i class="live-dot" aria-hidden="true"></i> SYSTEMS / ARCHITECTURE</span><span>FIG. 001 <span class="tiny-arrow">↗</span></span></div>
+          <div class="architecture-card">
+            <div class="terminal-heading"><span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>clinical-ai.pipeline</span><span class="terminal-label">ILLUSTRATION</span></div>
+            <div class="diagram-caption"><span class="mono-label">EVENT-DRIVEN PROCESSING</span><span class="diagram-caption-right">PYTHON / ASYNC / LLM</span></div>
+            <div class="pipeline" aria-label="Input to asynchronous workers to LLM orchestration to documents">
+              <button class="pipeline-node" data-node="input" aria-pressed="false"><span class="node-index">01 / INGEST</span><span class="node-symbol" aria-hidden="true">◉</span><strong>Clinical input</strong><small>Transcription</small></button>
+              <div class="pipeline-connector"><span aria-hidden="true">↓</span></div>
+              <button class="pipeline-node is-selected" data-node="queue" aria-pressed="true"><span class="node-index">02 / PROCESS</span><span class="node-symbol" aria-hidden="true">⌘</span><strong>Async workers</strong><small>Queues · Retries</small></button>
+              <div class="pipeline-connector"><span aria-hidden="true">↓</span></div>
+              <button class="pipeline-node" data-node="llm" aria-pressed="false"><span class="node-index">03 / REASON</span><span class="node-symbol" aria-hidden="true">✳</span><strong>LLM workflow</strong><small>Orchestration</small></button>
+              <div class="pipeline-connector"><span aria-hidden="true">↓</span></div>
+              <button class="pipeline-node" data-node="output" aria-pressed="false"><span class="node-index">04 / DELIVER</span><span class="node-symbol" aria-hidden="true">▤</span><strong>Structured note</strong><small>Validated output</small></button>
+            </div>
+            <div class="diagram-detail" id="node-description" aria-live="polite"><span class="detail-signal" aria-hidden="true">↳</span> Bounded concurrency, retries, backpressure, and idempotent job execution.</div>
+            <div class="terminal-bottom"><span><span class="small-square" aria-hidden="true"></span> BUILT FOR FAILURE RECOVERY</span><span>SELECT A LAYER ↑</span></div>
+          </div>
+          <div class="visual-side-note" aria-hidden="true">DESIGN FOR THE REAL WORLD — NOT JUST THE HAPPY PATH</div>
+        </div>
+      </div>
+      <div class="container hero-metrics" aria-label="Selected professional results">
+        <div class="metric reveal"><strong>7<span>+</span></strong><span>years of production<br />experience</span></div>
+        <div class="metric reveal"><strong>75K<span>+</span></strong><span>consultation jobs<br />per week supported</span></div>
+        <div class="metric reveal"><strong>2.3<span>×</span></strong><span>worker throughput<br />improvement</span></div>
+        <div class="metric reveal"><strong>99.9<span>%</span></strong><span>critical processing<br />service availability</span></div>
+      </div>
+    </section>
+
+    <section class="tech-strip" aria-label="Technologies I use">
+      <div class="container strip-label"><span class="mono-label">THE TOOLS BEHIND THE WORK</span><button class="ticker-control" id="ticker-control" type="button" aria-label="Pause technology ticker" aria-pressed="false">Pause <span aria-hidden="true">Ⅱ</span></button></div>
+      <div class="marquee" id="marquee"><div class="marquee-track" id="marquee-track"></div></div>
+    </section>
+
+    <section class="section section-work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-index">02 / SELECTED WORK</span><span class="section-top-aside">CASE STUDIES · 2019—PRESENT</span></div>
+        <div class="section-heading-row reveal"><div><p class="section-kicker">BUILT IN PRODUCTION</p><h2 id="work-title" class="section-heading">Proof in the <em>work.</em></h2></div><p class="section-intro">Real engineering challenges, practical solutions, and measurable outcomes across healthcare AI, visual intelligence, and transactional platforms.</p></div>
+        <div class="filters reveal" id="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All projects <span>05</span></button>
+          <button class="filter-btn" data-filter="ai" aria-pressed="false">AI systems</button>
+          <button class="filter-btn" data-filter="vision" aria-pressed="false">Computer vision</button>
+          <button class="filter-btn" data-filter="backend" aria-pressed="false">Backend platforms</button>
+        </div>
+        <div class="projects-grid" id="projects-grid" aria-live="polite"><!-- Populated from js/data.js --></div>
+        <p class="section-endnote mono-label reveal"><span aria-hidden="true">↗</span> Project summaries describe my contributions. Proprietary source code and internal systems are not publicly linked.</p>
+      </div>
+    </section>
+
+    <section class="section section-expertise" id="expertise" aria-labelledby="expertise-title">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-index">03 / TECHNICAL EXPERTISE</span><span class="section-top-aside">FROM API TO INFRASTRUCTURE</span></div>
+        <div class="section-heading-row reveal"><div><p class="section-kicker">THE ENGINEERING TOOLKIT</p><h2 id="expertise-title" class="section-heading">Built to go <em>deep.</em></h2></div><p class="section-intro">My focus is not just making systems work. It's making them observable, recoverable, performant, and easier to maintain as requirements change.</p></div>
+        <div id="skills-grid" class="skills-grid"><!-- Populated from js/data.js --></div>
+        <div class="expertise-bottom reveal"><span class="mono-label">ALSO WORKING WITH</span><p>PyTorch · OpenCV · Kafka · RabbitMQ · MongoDB · RAG · gRPC · GitHub Actions · GitLab CI · Helm · Terraform · ELK Stack</p></div>
+      </div>
+    </section>
+
+    <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-index">04 / CAREER JOURNEY</span><span class="section-top-aside">2017—PRESENT</span></div>
+        <div class="section-heading-row reveal"><div><p class="section-kicker">WHERE I'VE BUILT</p><h2 id="experience-title" class="section-heading">Experience that <em>scales.</em></h2></div><p class="section-intro">Working across teams and industries, from transactional applications to high-throughput AI processing in production.</p></div>
+        <div id="experience-list" class="experience-list"><!-- Populated from js/data.js --></div>
+      </div>
+    </section>
+
+    <section class="section section-principles" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-index">05 / HOW I ENGINEER</span><span class="section-top-aside">DESIGN · BUILD · OBSERVE · IMPROVE</span></div>
+        <div class="principles-layout">
+          <div class="principles-heading reveal"><p class="section-kicker">ENGINEERING PHILOSOPHY</p><h2 id="approach-title" class="section-heading">Production is<br />the <em>benchmark.</em></h2><p>From the first API contract to the last incident review, I approach backend engineering as a continuous cycle of evidence, delivery, and improvement.</p><a class="text-link" href="#contact">Talk about your engineering challenge <span aria-hidden="true">↗</span></a></div>
+          <div class="principle-list" id="principle-list"><!-- Populated from js/data.js --></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-content reveal"><span class="section-index">06 / ABOUT ME</span><p class="section-kicker about-kicker">THE HUMAN BEHIND THE SYSTEMS</p><h2 id="about-title" class="section-heading">Engineer first.<br /><em>Impact always.</em></h2><p>I'm Matteo, a Senior Backend Engineer based in Terracina, Italy. Over seven years of production experience has taken me from transactional business platforms to computer vision services and clinical AI workflows.</p><p>I enjoy untangling ambiguous problems, designing systems that behave well under load, and building the kind of operational visibility that helps teams understand what is happening when things go wrong.</p><p>My best work happens at the intersection of product thinking, backend architecture, and close collaboration with ML engineers and domain specialists.</p><a class="button button-outline" href="mailto:mohd.alauddin107@gmail.com?subject=Hello%20Matteo%20%E2%80%94%20Let's%20connect">Say hello <span aria-hidden="true">↗</span></a></div>
+        <div class="about-aside reveal">
+          <div class="profile-card"><span class="profile-deco" aria-hidden="true">M<span>/</span>A</span><div class="profile-bottom"><p class="mono-label">MATTEO ALAUDDIN</p><h3>Senior Backend<br />&amp; AI Platform Engineer</h3><span>TERRACINA, ITALY <span aria-hidden="true">↗</span> REMOTE WORLDWIDE</span></div></div>
+          <div class="about-facts"><div><span>EDUCATION</span><strong>BSc Computer Science<br />University of Dubai</strong><small>2014—2019 · GPA 3.8 / 4.0</small></div><div><span>MY FOCUS</span><strong>Python · AI Systems<br />Reliability · Scale</strong><small>BACKEND / PLATFORM ENGINEERING</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-shell reveal">
+          <div class="contact-orbit contact-orbit-one" aria-hidden="true"></div><div class="contact-orbit contact-orbit-two" aria-hidden="true"></div>
+          <div class="contact-top"><span class="section-index">07 / LET'S CONNECT</span><span class="contact-ready"><i class="live-dot" aria-hidden="true"></i> OPEN TO REMOTE ROLES</span></div>
+          <p class="contact-kicker">HAVE A CHALLENGING SYSTEM IN MIND?</p>
+          <h2 id="contact-title">Let's build<br /><em>what's next.</em></h2>
+          <p class="contact-description">Whether you're scaling a Python backend, putting AI into production, or looking for a senior engineer who takes reliability seriously — I'd love to hear about it.</p>
+          <div class="contact-actions"><a class="button button-light" href="mailto:mohd.alauddin107@gmail.com?subject=Let's%20connect%20%E2%80%94%20Backend%20%2F%20AI%20Engineering">Send an email <span aria-hidden="true">↗</span></a><button id="copy-email" class="button button-contact-outline" type="button">Copy email <span aria-hidden="true">⧉</span></button></div>
+          <a class="contact-email" href="mailto:mohd.alauddin107@gmail.com">mohd.alauddin107@gmail.com</a>
+          <span class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="footer-brand" href="#home">M<span>/</span>A <span>BACK TO TOP ↑</span></a><p>© <span id="year">2026</span> Matteo Alauddin. Designed for the work that matters.</p><span class="footer-location">TERRACINA, ITALY · REMOTE WORLDWIDE</span></div></footer>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+    <div id="dialog-content"></div>
+    <button class="dialog-close" id="dialog-close" aria-label="Close project details">×</button>
+  </dialog>
+</body>
+</html>
